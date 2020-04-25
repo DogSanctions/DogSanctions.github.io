@@ -18,7 +18,7 @@ body.fade-out {
 
 .Navbar {
     overflow:hidden;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     position: fixed;
     top: o;
     width: 100%;
@@ -58,8 +58,8 @@ body.fade-out {
     to {top: 0px;}
 }
 .Navbar a:hover {
-    background-color: black;
-    color: black;
+    background-color: rgb(15,15,15);
+    color: rgb(15,15,15);
     font-weight: bold;
     cursor: pointer;
     -webkit-transition-duration: 1s;
@@ -68,7 +68,7 @@ body.fade-out {
 
 /* HOME BUTTON */
 .Navbar a.active {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
 }
 
 @keyframes zoominoutsinglefeatured {
@@ -93,8 +93,8 @@ body.fade-out {
 }
 
 .Video_Text {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+    background: rgba(238, 238, 235, 0.25);
+    color: rgb(40, 40, 40);
     width: 100%;
     padding-top: .1vh;
     padding-bottom: 1vh;
@@ -105,7 +105,7 @@ body.fade-out {
 }
 
 #Slideshow_Background {
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0);
 }
 
 .mySlides {
@@ -139,7 +139,7 @@ body.fade-out {
     width: auto;
     padding: 2vw;
     margin-top: -0vw;
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.75);
     font-weight: bold;
     font-size: 1.5vw;
     border-radius: 0 3px 3px 0;
@@ -153,12 +153,12 @@ body.fade-out {
 }
 
 .Previous:hover, .Next:hover {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(135, 135, 135, 0.15);
     color: white;
 }
 
 .text {
-    color: white;
+    color: rgb(40, 40, 40);
     padding: 1vw;
     position: absolute;
     bottom: 0;
@@ -167,7 +167,7 @@ body.fade-out {
     font-family: Perpetua, Rockwell Extra Bold;
     letter-spacing: .1vw; 
     font-size: 1.5vw;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(255,255,255,0.45);
     font-weight: bold;
     border-radius: 7px 7px 7px 7px;
 }
@@ -188,7 +188,7 @@ body.fade-out {
     height: 1vw;
     width: 1vw;
     margin: .25vw;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -197,7 +197,7 @@ body.fade-out {
 }
 
 .active, .dot:hover {
-    background-color: black;
+    background-color: rgb(175, 175, 175, 0.75);
 }
   
 .fade {
@@ -214,8 +214,9 @@ body.fade-out {
 .Column_1 {
     float: left;
     width: 50%;
-    padding: 1.6%;
-    background-color: #f2f2f2;
+    padding: 1.0%;
+    background-color: rgba(255, 248, 248, 0.500);
+    color: rgb(40, 40, 40);
     height: 448px;
 }
 
@@ -223,7 +224,8 @@ body.fade-out {
     float: left;
     width: 50%;
     padding: 1.6%;
-    background-color: #4d4d4d;
+    background-color: rgba(202, 160, 20, 0.500);
+    color: rgb(40, 40, 40);
     height: 448px;
 }
 
@@ -238,7 +240,7 @@ h1 {
     font-family: Helvetica, sans-serif, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 3%;
-    color: #1a1a1a 
+    color: rgb(40, 40, 40); 
 }
 
 p {
@@ -259,7 +261,7 @@ center {
 }
 
 a {
-    color: blue;
+    color: rgb(199, 133, 11);
 }
 
 q {
@@ -282,13 +284,13 @@ center:hover {
 }
 
 p:hover {
-    color: #00004d;
+    color: #000000;
     transition: transform 1s;
     transform: scale(1.01);
 }
 
 h1:hover {
-    color: black;
+    color: rgb(15, 15, 15);
     font-weight: normal;
 }
 
@@ -348,9 +350,9 @@ img:hover {
 }
 
 .form-container .cancel {
-    background-color: black;
-    color: white;
-    border-color: gray;
+    background-color: rgb(202, 202, 202);
+    color: rgb(15, 15, 15);
+    border-color: black;
 }
 
 button {
@@ -367,7 +369,7 @@ button {
 
 button:hover, .form-container .btn-hover{
     color: white;
-    background-color: black;
+    background-color: rgb(18, 18, 18);
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
     border-style: solid;
@@ -386,6 +388,7 @@ button:hover, .form-container .btn-hover{
 
 
 footer {
-    padding: 2%;
-    background-color: rgb(155, 155, 154);
+    padding: 1%;
+    background-color: rgb(15,15,15);
+    color: white;
 }

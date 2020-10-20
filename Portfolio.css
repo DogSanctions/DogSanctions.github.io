@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#bgforSite {
+    background-color: darkkhaki;
+}
+
 body {
     margin: 0%;
     opacity: 1;
@@ -86,11 +90,6 @@ body.fade-out {
 
 /* #abstractyellow {
     position: relative;
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    top: 0;
 } */
 
 .Video_Text {

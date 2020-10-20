@@ -80,12 +80,13 @@ body.fade-out {
     }
 }
 
-#Home {
+/* #home {
     background: rgba(238, 238, 235, 0.25);
     color: rgb( 40, 40, 40);
     animation: zoominoutsignlefeatured 5s;
-}
-/* #banana {
+} */
+
+#abstractyellow {
     position: relative;
     width: 100%;
     right: 0;
@@ -95,7 +96,7 @@ body.fade-out {
     min-height: 100%;
     z-index: -1;
     animation: zoominoutsinglefeatured 5s;
-} */
+}
 
 .Video_Text {
     background: rgba(238, 238, 235, 0.25);

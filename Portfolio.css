@@ -93,8 +93,6 @@ body.fade-out {
     bottom: 0;
     left: 0;
     top: 0;
-    min-height: 100%;
-    z-index: -1;
     animation: zoominoutsinglefeatured 5s;
 }
 

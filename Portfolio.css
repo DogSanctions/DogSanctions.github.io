@@ -87,13 +87,12 @@ body.fade-out {
 } */
 
 #abstractYellow {
-    position: center;
+    position: relative;
     width: 100%;
     right: 0;
     bottom: 0;
     left: 0;
     top: 0;
-    animation: zoominoutsinglefeatured 5s;
 }
 
 .Video_Text {

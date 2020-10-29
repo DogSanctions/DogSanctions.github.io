@@ -283,7 +283,7 @@ p:hover {
 }
 
 h1:hover {
-    color: rgb(15, 15, 15);
+    color: rgba(15, 15, 15, 0.5);
     font-weight: normal;
 }
 

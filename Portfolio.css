@@ -82,6 +82,7 @@ body.fade-out {
 
 #lightbulb {
     position: relative;
+    background-size: cover;
 }
 
 .Video_Text {

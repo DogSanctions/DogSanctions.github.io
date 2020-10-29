@@ -86,8 +86,8 @@ body.fade-out {
 }
 
 .Video_Text {
-    background: rgba(238, 238, 235, 0.25);
-    color: rgb(255, 254, 254);
+    background: rgba(15, 15, 15, 0.25);
+    color: rgb(255, 255, 255);
     width: 100%;
     padding-top: .1vh;
     padding-bottom: 1vh;
@@ -151,7 +151,7 @@ body.fade-out {
 }
 
 .text {
-    color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
     padding: 1vw;
     position: absolute;
     bottom: 0;
@@ -208,8 +208,8 @@ body.fade-out {
     float: left;
     width: 50%;
     padding: 1.0%;
-    background-color: rgba(255, 248, 248, 0.500);
-    color: rgb(40, 40, 40);
+    background-color: rgba(245, 245, 245, 0.500);
+    color: rgb(15, 15, 15);
     height: 448px;
 }
 
@@ -217,8 +217,8 @@ body.fade-out {
     float: left;
     width: 50%;
     padding: 1.6%;
-    background-color: rgba(59, 59, 59, 0.5);
-    color: rgb(40, 40, 40);
+    background-color: rgba(15, 15, 15, 0.5);
+    color: rgb(245, 245, 245);
     height: 448px;
 }
 
@@ -233,7 +233,7 @@ h1 {
     font-family: Helvetica, sans-serif, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 3%;
-    color: rgb(40, 40, 40); 
+    color: rgb(255, 255, 255); 
 }
 
 p {
@@ -254,7 +254,7 @@ center {
 }
 
 a {
-    color: rgb(199, 133, 11);
+    color: rgb(16, 39, 250);
 }
 
 q {

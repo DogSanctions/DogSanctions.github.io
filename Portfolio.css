@@ -208,7 +208,7 @@ body.fade-out {
     float: left;
     width: 50%;
     padding: 1.0%;
-    background-color: rgba(245, 245, 245, 0.500);
+    background-color: rgba(255, 255, 255, 0.500);
     color: rgb(15, 15, 15);
     height: 448px;
 }
@@ -218,7 +218,7 @@ body.fade-out {
     width: 50%;
     padding: 1.6%;
     background-color: rgba(15, 15, 15, 0.5);
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
     height: 448px;
 }
 

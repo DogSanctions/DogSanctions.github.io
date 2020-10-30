@@ -74,6 +74,7 @@ body.fade-out {
 #lightbulb {
     position: relative;
     background-size: cover;
+    animation: none;
 }
 
 @keyframes zoominoutsinglefeatured {

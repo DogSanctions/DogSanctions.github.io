@@ -71,6 +71,11 @@ body.fade-out {
     background-color: rgb(15, 15, 15);
 }
 
+#lightbulb {
+    position: relative;
+    background-size: cover;
+}
+
 @keyframes zoominoutsinglefeatured {
     0% {
         transform: scale(1.5,1.5);
@@ -78,11 +83,6 @@ body.fade-out {
     100%{
         transform: scale(1,1);
     }
-}
-
-#lightbulb {
-    position: relative;
-    background-size: cover;
 }
 
 .Video_Text {
@@ -283,7 +283,7 @@ p:hover {
 }
 
 h1:hover {
-    color: rgba(15, 15, 15, 0.5);
+    color: rgb(0, 0, 0);
     font-weight: normal;
 }
 

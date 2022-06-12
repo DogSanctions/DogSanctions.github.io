@@ -20,6 +20,7 @@ body.fade-out {
     overflow:hidden;
     background-color: rgb(15, 15, 15);
     position: fixed;
+    box-sizing: content-box;
     top: o;
     width: 100%;
     z-index: 1;
@@ -32,6 +33,7 @@ body.fade-out {
     float: left;
     display: block;
     color: darkgrey;
+    box-sizing: content-box;
     padding: 15px;
     text-decoration: none;
     font-family: Helvetica, sans-serif, Arial, 'Times New Roman', Times, serif;

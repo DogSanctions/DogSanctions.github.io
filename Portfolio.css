@@ -207,6 +207,7 @@ body.fade-out {
 .Column_1 {
     float: left;
     width: 50%;
+    text-size-adjust: 10;
     padding: 1.0%;
     background-color: rgba(255, 255, 255, 0.75);
     color: rgb(255, 255, 255);
